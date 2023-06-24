@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*Adds padding and border to width itself*/
+}
+
+body{
+    background: white;
+}
+
+.main{
+    background: #ccc;
+    width: 400px;
+    height: 175px;
+    margin: 100px auto;
+}
