@@ -6,12 +6,19 @@ function loop(){
 
     if(hh < 10)
         hh = "0" + hh;
+        if(hh == 0)
+            hh = "00";
 
-    if(hh < 10)
+    if(mm < 10)
         mm = "0" + mm;
+        if(mm == 0)
+            mm = "00";
 
-    if(hh < 10)
+    if(ss < 10)
         ss = "0" + ss;
+        if(ss == 0)
+            ss = "00";
+
 
     document.getElementById('hour').innerHTML = hh + ":";
     document.getElementById('minute').innerHTML = mm + ":";
